@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fedf2e7-280c-416b-a4e0-8e6c9a29f6cb" name="Default Changelist" comment="add sbt">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/RichyBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/RichyBlog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Test.scala" afterDir="false" />
-    </list>
+    <list default="true" id="3fedf2e7-280c-416b-a4e0-8e6c9a29f6cb" name="Default Changelist" comment="add sbt" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -29,9 +23,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Test.scala">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/scala-2.12/classes/testDemo.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -106,6 +113,26 @@
               <item name="RichyBlog" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RichyBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RichyBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-2.12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RichyBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RichyBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-2.12" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RichyBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RichyBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-2.12" type="462c0819:PsiDirectoryNode" />
+              <item name="resolution-cache" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -124,6 +151,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -201,7 +229,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555592861755</updated>
       <workItem from="1555592865175" duration="731000" />
-      <workItem from="1555641042275" duration="3672000" />
+      <workItem from="1555641042275" duration="4625000" />
     </task>
     <task id="LOCAL-00001" summary="add sbt">
       <created>1555642451880</created>
@@ -214,13 +242,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4403000" />
+    <option name="totallyTimeSpent" value="5356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1105" height="960" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26985645" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26985645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -231,7 +259,7 @@
       <window_info anchor="bottom" id="Messages" sideWeight="0.49952152" weight="0.3292978" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985646" visible="true" weight="0.3292978" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985646" visible="true" weight="0.3292978" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -291,7 +319,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Test.scala">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/scala-2.12/classes/testDemo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
