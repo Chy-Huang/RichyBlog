@@ -1,11 +1,19 @@
+import java.util.Date
+
 object testDemo{
   def main(args: Array[String]): Unit = {
     Test()
     println("hello world!")
     printString("Scala","Java","Python")//可变函数
     for (i <- 1 to 10){
-      println(i + " 的阶乘为：= " + factorial(i))
+      println(i + " 的阶乘为：= " + factorial(i))//递归函数
     }
+    val date = new Date()
+    log(date, "message1")
+    Thread.sleep(1000)
+    log(date, "message2")
+    Thread.sleep(1000)
+    log(date, "message3")
   }
 
   def Test(): Unit ={
@@ -33,5 +41,7 @@ object testDemo{
     else
       n * factorial(n - 1)
   }
-
+  def log(date: Date, message: String): Unit ={
+    println(date + "--------" + message)
+  }
 }
