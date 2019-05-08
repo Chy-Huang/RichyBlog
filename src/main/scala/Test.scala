@@ -14,6 +14,7 @@ object testDemo{
     log(date, "message2")
     Thread.sleep(1000)
     log(date, "message3")
+    isabs(9)
   }
 
   def Test(): Unit ={
@@ -43,5 +44,9 @@ object testDemo{
   }
   def log(date: Date, message: String): Unit ={
     println(date + "--------" + message)
+  }
+  def isabs(signum: Int): Int ={
+    if(signum > 0 ) 1
+    else -1
   }
 }
